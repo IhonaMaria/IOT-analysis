@@ -33,7 +33,7 @@ def on_message(client, userdata, msg):
 
 
 clientId = 'TemperatureActionExecutor'
-broker = 'iot.jlm.local'
+broker = 'broker'
 
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, clientId)
 client.on_connect = on_connect
