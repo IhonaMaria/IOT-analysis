@@ -19,7 +19,7 @@ def publish_temperature_data(client):
 
 clientId = 'Ihona'
 port = 1883
-broker = 'iot.jlm.local'
+broker = 'broker'
 
 # Create an MQTT client instance
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, clientId)
